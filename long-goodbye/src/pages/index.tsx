@@ -1,7 +1,9 @@
-import { EB_Garamond } from "next/font/google";
 import React, { useMemo } from "react";
 import Head from "next/head";
-const eb_Garamond = EB_Garamond({ subsets: ["latin"] });
+import { EB_Garamond } from "next/font/google";
+import "tailwindcss/tailwind.css";
+
+const eb_Garamond = EB_Garamond({ subsets: ["latin"], display: "swap" });
 
 const HomePage: React.FC = () => {
   const greatWallLengthInPixels = 21196000 * 37.795275591;
@@ -35,9 +37,9 @@ const HomePage: React.FC = () => {
           rel="icon"
           type="image/png"
           sizes="16x16"
-          href="/long-goodbye//favicon-16x16.png"
+          href="/long-goodbye/favicon-16x16.png"
         />
-        <link rel="manifest" href="/long-goodbye//site.webmanifest" />
+        <link rel="manifest" href="/long-goodbye/site.webmanifest" />
       </Head>
       <div className="min-h-screen bg-black text-white md:h-[801557220px] relative">
         <main
