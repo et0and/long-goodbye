@@ -17,27 +17,27 @@ const HomePage: React.FC = () => {
         <meta property="og:description" content="Until we meet again" />
         <meta property="twitter:description" content="Until we meet again" />
         <meta property="og:url" content="https://work.tom.so/long-goodbye" />
-        <meta property="og:image" content="og.png" />
+        <meta property="og:image" content="/long-goodbye/og.png" />
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:image" content="og.png" />
+        <meta property="twitter:image" content="/long-goodbye/og.png" />
         <link
           rel="apple-touch-icon"
           sizes="180x180"
-          href="/apple-touch-icon.png"
+          href="/long-goodbye/apple-touch-icon.png"
         />
         <link
           rel="icon"
           type="image/png"
           sizes="32x32"
-          href="/favicon-32x32.png"
+          href="/long-goodbye/favicon-32x32.png"
         />
         <link
           rel="icon"
           type="image/png"
           sizes="16x16"
-          href="/favicon-16x16.png"
+          href="/long-goodbye//favicon-16x16.png"
         />
-        <link rel="manifest" href="/site.webmanifest" />
+        <link rel="manifest" href="/long-goodbye//site.webmanifest" />
       </Head>
       <div className="min-h-screen bg-black text-white md:h-[801557220px] relative">
         <main
