@@ -1,7 +1,6 @@
 import React, { useMemo } from "react";
 import Head from "next/head";
 import { EB_Garamond } from "next/font/google";
-import "tailwindcss/tailwind.css";
 
 const eb_Garamond = EB_Garamond({ subsets: ["latin"], display: "swap" });
 
